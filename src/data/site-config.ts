@@ -38,9 +38,10 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Shrut Sureja',
+    subtitle: 'Software Engineer | Gopher',
+    description:
+        'Personal blog and portfolio of Shrut Sureja, a software engineer and Gopher based in India. I write about Go, web development, and software engineering.',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
