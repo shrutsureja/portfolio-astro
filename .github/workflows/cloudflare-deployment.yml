@@ -1,13 +1,13 @@
 name: Cloudflare Deployment
 
 on:
-  workflow_dispatch:
-    push:
-      branches:
-        - main
+  push:
+    branches:
+      - main
     paths:
       - "src/content/**"
       - ".github/workflows/cloudflare-deployment.yml"
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -32,6 +32,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./dist --project-name=portfolio
+          command: pages deploy ./dist --project-name=portfolio --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
