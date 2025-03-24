@@ -8,7 +8,7 @@ seo:
 Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
 
 _Email:_
-Feel free to drop me an email at [mail@shrutsureja.me](mailto:mail@shrutsureja.me), and I'll do my best to respond as soon as possible.
+Feel free to drop me an email at [hello@shrutsureja.me](mailto:hello@shrutsureja.me), and I'll do my best to respond as soon as possible.
 
 _Social Media:_
 Connect with me on social media as well. Find me on [Twitter](https://x.com/shrutsureja) or [LinkedIn](https://www.linkedin.com/in/shrutsureja/).
