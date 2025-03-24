@@ -1,13 +1,11 @@
-@import '@fontsource-variable/inter';
-@import '@fontsource-variable/newsreader';
-@import '@fontsource-variable/newsreader/wght-italic.css';
+@import '@fontsource-variable/nunito-sans';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito Sans Variable', sans-serif;
 }
 
 @layer base {
