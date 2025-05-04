@@ -65,7 +65,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'CV',
-            href: 'https://cv.shrutsureja.me'
+            href: 'https://cv.shrutsureja.tech'
         }
     ],
     footerNavLinks: [
