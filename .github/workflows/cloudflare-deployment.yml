@@ -12,6 +12,10 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
+    env:
+      DEPLOY_BRANCH_FLAG: ${{ github.ref_name == 'dev' && '--branch=dev' || '' }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,10 +32,10 @@ jobs:
         run: npm run build
 
       - name: Deploy to Cloudflare
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./dist --project-name=portfolio --commit-dirty=true
+        run: |
+          echo "Deploying with flag: $DEPLOY_BRANCH_FLAG"
+          npx wrangler pages deploy ./dist --project-name=portfolio $DEPLOY_BRANCH_FLAG --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          DEPLOY_BRANCH_FLAG: ${{ github.ref_name == 'dev' && '--branch=dev' || '' }}
