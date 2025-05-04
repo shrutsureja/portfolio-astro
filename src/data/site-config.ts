@@ -43,8 +43,8 @@ const siteConfig: SiteConfig = {
     description:
         'Personal blog and portfolio of Shrut Sureja, a software engineer and Gopher based in India. I write about Go, web development, and software engineering.',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/shrut-coding.png',
+        alt: 'Shrut Sureja'
     },
     headerNavLinks: [
         {
@@ -55,10 +55,10 @@ const siteConfig: SiteConfig = {
             text: 'Projects',
             href: '/projects'
         },
-        // {
-        //     text: 'Blog',
-        //     href: '/blog'
-        // },
+        {
+            text: 'Blog',
+            href: '/blog'
+        },
         {
             text: 'Tags',
             href: '/tags'
@@ -90,13 +90,17 @@ const siteConfig: SiteConfig = {
         {
             text: 'X/Twitter',
             href: 'https://x.com/shrutsureja'
+        },
+        {
+            text: 'GitHub',
+            href: 'https://github.com/shrutsureja'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        // title: 'Hi There & Welcome to My Corner of the Web!',
+        text: "I'm **Shrut Sureja**, a software developer at Kevit. I love building things with Go and JavaScript. I also enjoy writing about my experiences and sharing my knowledge with others.",
         image: {
-            src: '/hero.jpeg',
+            src: '/shrut-coding.png',
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
