@@ -98,7 +98,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         // title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Shrut Sureja**, a software developer at Kevit. I love building things with Go and JavaScript. I also enjoy writing about my experiences and sharing my knowledge with others.",
+        text: "I'm **Shrut Sureja**, a Software Development Engineer at [Kevit](https://kevit.io/). I love to build software that helps in daily life and this is where I will be writing about my experiences and sharing my knowledge with others.",
         image: {
             src: '/shrut-coding.png',
             alt: 'A person sitting at a desk in front of a computer'
