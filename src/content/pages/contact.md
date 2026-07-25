@@ -2,13 +2,13 @@
 title: Get in touch
 seo:
   title: Contact
-  description: Get in touch through email or social media! Let me know how I can help.
+  description: How to reach Shrut Sureja by email or social media.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+If you want to talk backend systems, Go, or hiring, email is the best way to reach me.
 
 _Email:_
-Feel free to drop me an email at [shrutsureja.work@gmail.com](mailto:shrutsureja.work@gmail.com), and I'll do my best to respond as soon as possible.
+[shrutsureja.work@gmail.com](mailto:shrutsureja.work@gmail.com). I read everything and reply when I can.
 
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://x.com/shrutsureja), [LinkedIn](https://www.linkedin.com/in/shrutsureja/), or [GitHub](https://github.com/shrutsureja).
+_Elsewhere:_
+[Twitter](https://x.com/shrutsureja), [LinkedIn](https://www.linkedin.com/in/shrutsureja/), [GitHub](https://github.com/shrutsureja).
