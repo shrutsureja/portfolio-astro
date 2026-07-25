@@ -2,42 +2,32 @@
 title: About
 seo:
   title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
+  description: Software Development Engineer at Kevit, working on Chatomate, an omnichannel messaging platform. Go, TypeScript, and distributed systems.
   image:
-    src: '/about.jpeg'
-    alt: A person sitting at a desk in front of a computer
+    src: '/shrut-coding.png'
+    alt: Shrut Sureja
 ---
 
-![Alt text for image](/about.jpeg)
+![Shrut Sureja](/shrut-coding.png)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Hey, I'm Shrut
 
-## Ethan Donovan - Web Developer based in Estonia
+I'm a Software Development Engineer at [Kevit](https://kevit.io/). I work on Chatomate, an omnichannel messaging platform that covers WhatsApp, RCS, Instagram, Web Chat, and Voice. It's built as a NestJS microservices monorepo and handles hundreds of millions of API calls every month.
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+## What I work on
 
-## Skills and Expertise
+Most days I'm shipping backend features across Chatomate's services. One example is the flow builder trigger system, which powers keyword and referral based bot conversations. I also rewrote one of our services in Go as a performance test. It cut memory use by 95% and peak CPU by 71% under load testing. Good numbers, but the team decided not to move the whole stack to Go, and that was the right call too. A good benchmark and a good long term decision are not always the same thing.
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+Outside of Chatomate, I built LeadMastro on my own. It's a multi tenant CRM backend written in Go, with RBAC, an automation engine built on RabbitMQ, and a subscription billing system on Razorpay with HMAC verified webhooks.
 
-## Innovation and Problem-Solving
+Lately I've been spending a lot of time making our codebase easier for AI tools (and new engineers) to work in. That means writing clear docs, coding rules, and custom Claude Code skills that match how our team actually works, things like technical analysis, PR review, and scaffolding new services. It has genuinely sped up onboarding, both for people and for AI. I plan to write more about this here.
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+I also mentor a junior engineer on my team. Mostly task breakdown and code review, the usual stuff.
 
-## Global Perspective, Local Impact
+## Elsewhere
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+I'm a Gopher at heart, but I write TypeScript for a living these days. You can find my code on [GitHub](https://github.com/shrutsureja), and sometimes I solve problems on [LeetCode](https://leetcode.com) and [Codeforces](https://codeforces.com).
 
-## Continuous Learning
+## Get in touch
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
-
-## Collaboration and Communication
-
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
-
-## Get in Touch
-
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
-
-_Let's build something amazing together!_
+If you want to talk backend systems, Go, or using AI in a real codebase, reach out. Check the [contact page](/contact) for ways to find me.
