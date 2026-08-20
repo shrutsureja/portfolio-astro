@@ -11,5 +11,9 @@ export default defineConfig({
         tailwind({
             applyBaseStyles: false
         })
-    ]
+    ],
+    server: {
+        host: '0.0.0.0',
+        allowedHosts: ['dev.shrutsureja.com'],
+    }
 });

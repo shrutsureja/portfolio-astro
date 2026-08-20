@@ -60,6 +60,10 @@ const siteConfig: SiteConfig = {
             href: '/tags'
         },
         {
+            text: 'AI Research',
+            href: 'https://ai-research.shrutsureja.com'
+        },
+        {
             text: 'CV',
             href: 'https://cv.shrutsureja.com'
         }
@@ -68,6 +72,10 @@ const siteConfig: SiteConfig = {
         {
             text: 'About',
             href: '/about'
+        },
+        {
+            text: 'AI Research',
+            href: 'https://ai-research.shrutsureja.com'
         },
         {
             text: 'Contact',
