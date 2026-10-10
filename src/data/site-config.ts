@@ -62,6 +62,10 @@ const siteConfig: SiteConfig = {
         {
             text: 'CV',
             href: 'https://cv.shrutsureja.com'
+        },
+        {
+            text: 'Resume',
+            href: '/shrut-sureja-resume.pdf'
         }
     ],
     footerNavLinks: [
