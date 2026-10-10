@@ -60,10 +60,6 @@ const siteConfig: SiteConfig = {
             href: '/tags'
         },
         {
-            text: 'CV',
-            href: 'https://cv.shrutsureja.com'
-        },
-        {
             text: 'Resume',
             href: '/shrut-sureja-resume.pdf'
         }
