@@ -13,9 +13,21 @@ const featuredPosts = posts.filter(({ data }) => data.isFeatured);
 
 const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
 const featuredProjects = projects.filter(({ data }) => data.isFeatured);
+
+const profile = {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    mainEntity: {
+        '@type': 'Person',
+        name: siteConfig.title,
+        url: Astro.site?.href,
+        sameAs: siteConfig.socialLinks?.map(({ href }) => href)
+    }
+};
 ---
 
 <BaseLayout description={siteConfig.description} image={siteConfig.image} showHeader={false}>
+    <script type="application/ld+json" set:html={JSON.stringify(profile).replace(/</g, '\\u003c')} />
     <Hero />
     {
         featuredProjects?.length > 0 && (
